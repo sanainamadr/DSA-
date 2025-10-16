@@ -1,4 +1,4 @@
-public class assignment_array {
+public class Assignment_array {
     public static void bubbleSort(int num[]){
         for(int tern= 0; tern<num.length-1; tern++){
             for(int j=0; j<num.length-1-tern; j++){
