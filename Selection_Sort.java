@@ -4,8 +4,8 @@ public class Selection_Sort {
         for(int i=0; i<num.length-1; i++){ // sorted part 
             int minPos = i; // consider that it is smallest number just for initialization
             for(int j=i+1; j<num.length; j++){ // unsorted part 
-                if(num[minPos] > num[j]){
-                    minPos = j;
+                if(num[minPos] > num[j]){                // if you want a resultant array in descanding order then use this 👇👇 
+                    minPos = j;                          // if(num[minPos] < num[j]){
                 }
             }
             //swap
